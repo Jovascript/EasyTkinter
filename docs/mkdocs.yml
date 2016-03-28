@@ -1,0 +1,8 @@
+site_name: EasyTkinter
+theme: flatly
+pages:
+  - Home: 'index.md'
+  - Other Information:
+    - How EasyTkinter Works: 'working.md'
+    - License: 'license.md'
+copyright: '&copy 2015 Joe Bell <a href="license/">License</a>'
