@@ -1,16 +1,19 @@
 from setuptools import setup
 from codecs import open
 from os import path
+import shutil
+
+shutil.rmtree('dist/')
 
 here = path.abspath(path.dirname(__file__))
 
-with open(path.join(here, 'DESCRIPTION.rst'), encoding='utf-8') as f:
+with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
     name="EasyTkinter",
 
-    version="1.0.1",
+    version="1.1.0",
 
     description="A module to greatly simplify tkinter applications.",
     long_description=long_description,
